@@ -1,0 +1,55 @@
+# Standard Android Studio generated files
+*.iml
+.gradle
+/local.properties
+
+
+# =====================================================================
+# IDE-specific files (IntelliJ, Android Studio)
+#
+# This is the "ignore all, then un-ignore" pattern. It's robust against
+# new IDE files being added in the future.
+.idea/
+# Un-ignore the directories that should be shared.
+!/.idea/codeStyles/
+!/.idea/copyright/
+!/.idea/dictionaries/
+!/.idea/fileTemplates/
+!/.idea/runConfigurations/
+# =====================================================================
+
+.DS_Store
+.externalNativeBuild
+.cxx
+/.gradle
+/.kotlin
+
+# Build artifacts and output
+# This ignores the root build folder AND all module build folders.
+build/
+
+# Jetpack Compose compiler reports and metrics
+/compose-metrics
+/compose-reports
+
+# Captures and profiling output
+/captures
+*.hprof
+
+# Keystores and signing information - MUST NOT be committed
+*.jks
+*.keystore
+
+# Other
+Thumbs.db
+ehthumbs.db
+*.log
+*.stacktrace
+signing.properties
+
+# Compiled application files
+*.apk
+*.aab
+
+# Generated license report
+/app/src/main/assets/open_source_licenses.html
