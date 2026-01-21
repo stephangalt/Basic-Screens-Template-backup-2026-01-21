@@ -1,4 +1,4 @@
-package org.smithbros.basicscreenstemplate.ui.viewmodel
+package org.smithbros.basicscreenstemplatebackup20260121.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

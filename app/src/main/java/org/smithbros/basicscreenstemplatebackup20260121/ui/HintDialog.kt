@@ -1,4 +1,4 @@
-package org.smithbros.basicscreenstemplate.ui
+package org.smithbros.basicscreenstemplatebackup20260121.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -17,7 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.DialogProperties
-import org.smithbros.basicscreenstemplate.R
+import org.smithbros.basicscreenstemplatebackup20260121.R
 
 
 @Composable

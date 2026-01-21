@@ -1,8 +1,8 @@
-package org.smithbros.basicscreenstemplate.ui.screen
+package org.smithbros.basicscreenstemplatebackup20260121.ui.screen
 
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.Box
-import org.smithbros.basicscreenstemplate.R
+import org.smithbros.basicscreenstemplatebackup20260121.R
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
@@ -32,13 +32,13 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import kotlinx.coroutines.launch
-import org.smithbros.basicscreenstemplate.navigation.AppScreen
-import org.smithbros.basicscreenstemplate.ui.HintDialog
-import org.smithbros.basicscreenstemplate.ui.MenuItem
-import org.smithbros.basicscreenstemplate.ui.StandardTopAppBar
-import org.smithbros.basicscreenstemplate.ui.theme.AppTheme
-import org.smithbros.basicscreenstemplate.ui.viewmodel.AppViewModel
-import org.smithbros.basicscreenstemplate.ui.viewmodel.AppViewModelFactory
+import org.smithbros.basicscreenstemplatebackup20260121.navigation.AppScreen
+import org.smithbros.basicscreenstemplatebackup20260121.ui.HintDialog
+import org.smithbros.basicscreenstemplatebackup20260121.ui.MenuItem
+import org.smithbros.basicscreenstemplatebackup20260121.ui.StandardTopAppBar
+import org.smithbros.basicscreenstemplatebackup20260121.ui.theme.AppTheme
+import org.smithbros.basicscreenstemplatebackup20260121.ui.viewmodel.AppViewModel
+import org.smithbros.basicscreenstemplatebackup20260121.ui.viewmodel.AppViewModelFactory
 
 /**
  * The main home screen of the application.

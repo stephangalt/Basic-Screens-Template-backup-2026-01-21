@@ -1,4 +1,4 @@
-package org.smithbros.basicscreenstemplate.ui.screen
+package org.smithbros.basicscreenstemplatebackup20260121.ui.screen
 
 import android.webkit.WebView
 import androidx.compose.foundation.layout.padding
@@ -13,7 +13,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.navigation.NavController
-import org.smithbros.basicscreenstemplate.ui.StandardTopAppBar
+import org.smithbros.basicscreenstemplatebackup20260121.ui.StandardTopAppBar
 import java.io.IOException
 
 

@@ -26,5 +26,5 @@ dependencyResolutionManagement {
     }*/
 }
 
-rootProject.name = "Basic Screens Template"
+rootProject.name = "Basic-Screens-Template-backup-2026-01-21"
 include(":app")

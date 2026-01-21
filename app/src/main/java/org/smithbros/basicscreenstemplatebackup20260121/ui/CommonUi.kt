@@ -1,4 +1,4 @@
-package org.smithbros.basicscreenstemplate.ui
+package org.smithbros.basicscreenstemplatebackup20260121.ui
 
 import android.app.Activity
 import android.content.Context

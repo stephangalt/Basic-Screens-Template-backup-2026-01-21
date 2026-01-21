@@ -1,4 +1,4 @@
-package org.smithbros.basicscreenstemplate
+package org.smithbros.basicscreenstemplatebackup20260121
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,22 +11,22 @@ import androidx.compose.ui.res.stringResource
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import org.smithbros.basicscreenstemplate.navigation.NavRoutes
-import org.smithbros.basicscreenstemplate.ui.screen.AboutScreen
-import org.smithbros.basicscreenstemplate.ui.screen.AppLicenseInfo
-import org.smithbros.basicscreenstemplate.ui.screen.GenericLicensesScreen
-import org.smithbros.basicscreenstemplate.ui.screen.HelpScreen
-import org.smithbros.basicscreenstemplate.ui.screen.PrivacyPolicyScreen
-import org.smithbros.basicscreenstemplate.ui.screen.Screen1
-import org.smithbros.basicscreenstemplate.ui.screen.Screen2
-import org.smithbros.basicscreenstemplate.ui.screen.Screen3
-import org.smithbros.basicscreenstemplate.ui.screen.Screen4
-import org.smithbros.basicscreenstemplate.ui.screen.SettingsScreen
-import org.smithbros.basicscreenstemplate.ui.screen.TermsOfServiceScreen
-import org.smithbros.basicscreenstemplate.ui.theme.AppTheme
+import org.smithbros.basicscreenstemplatebackup20260121.navigation.NavRoutes
+import org.smithbros.basicscreenstemplatebackup20260121.ui.screen.AboutScreen
+import org.smithbros.basicscreenstemplatebackup20260121.ui.screen.AppLicenseInfo
+import org.smithbros.basicscreenstemplatebackup20260121.ui.screen.GenericLicensesScreen
+import org.smithbros.basicscreenstemplatebackup20260121.ui.screen.HelpScreen
+import org.smithbros.basicscreenstemplatebackup20260121.ui.screen.PrivacyPolicyScreen
+import org.smithbros.basicscreenstemplatebackup20260121.ui.screen.Screen1
+import org.smithbros.basicscreenstemplatebackup20260121.ui.screen.Screen2
+import org.smithbros.basicscreenstemplatebackup20260121.ui.screen.Screen3
+import org.smithbros.basicscreenstemplatebackup20260121.ui.screen.Screen4
+import org.smithbros.basicscreenstemplatebackup20260121.ui.screen.SettingsScreen
+import org.smithbros.basicscreenstemplatebackup20260121.ui.screen.TermsOfServiceScreen
+import org.smithbros.basicscreenstemplatebackup20260121.ui.theme.AppTheme
 import androidx.lifecycle.ViewModelProvider
-import org.smithbros.basicscreenstemplate.ui.viewmodel.AppViewModel
-import org.smithbros.basicscreenstemplate.ui.viewmodel.AppViewModelFactory
+import org.smithbros.basicscreenstemplatebackup20260121.ui.viewmodel.AppViewModel
+import org.smithbros.basicscreenstemplatebackup20260121.ui.viewmodel.AppViewModelFactory
 
 class MainActivity : ComponentActivity()  {
 

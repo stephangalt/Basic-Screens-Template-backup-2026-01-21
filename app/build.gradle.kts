@@ -14,11 +14,11 @@ val versionProps = Properties()
 versionProps.load(project.rootProject.file("gradle.properties").inputStream())
 
 android {
-    namespace = "org.smithbros.basicscreenstemplate"
+    namespace = "org.smithbros.basicscreenstemplatebackup20260121"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "org.smithbros.basicscreenstemplate"
+        applicationId = "org.smithbros.basicscreenstemplatebackup20260121"
         minSdk = 24
         targetSdk = 36
         versionCode = (versionProps["VERSION_CODE"] as String).toInt()

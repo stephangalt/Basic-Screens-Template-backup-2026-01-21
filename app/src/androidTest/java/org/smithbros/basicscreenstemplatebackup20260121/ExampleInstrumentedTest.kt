@@ -1,4 +1,4 @@
-package org.smithbros.basicscreenstemplate
+package org.smithbros.basicscreenstemplatebackup20260121
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry

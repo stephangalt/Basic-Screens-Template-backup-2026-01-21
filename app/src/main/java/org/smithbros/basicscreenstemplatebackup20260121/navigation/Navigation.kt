@@ -1,7 +1,7 @@
-package org.smithbros.basicscreenstemplate.navigation
+package org.smithbros.basicscreenstemplatebackup20260121.navigation
 
 import androidx.annotation.StringRes
-import org.smithbros.basicscreenstemplate.R
+import org.smithbros.basicscreenstemplatebackup20260121.R
 
 /**
  * Defines the unique routes for each destination in the app.

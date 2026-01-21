@@ -1,4 +1,4 @@
-package org.smithbros.basicscreenstemplate.ui.screen
+package org.smithbros.basicscreenstemplatebackup20260121.ui.screen
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -15,12 +15,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import org.smithbros.basicscreenstemplate.R
-import org.smithbros.basicscreenstemplate.navigation.AppScreen
-import org.smithbros.basicscreenstemplate.ui.MenuItem
-import org.smithbros.basicscreenstemplate.ui.StandardTopAppBar
-import org.smithbros.basicscreenstemplate.ui.viewmodel.AppViewModel
-import org.smithbros.basicscreenstemplate.ui.viewmodel.AppViewModelFactory
+import org.smithbros.basicscreenstemplatebackup20260121.R
+import org.smithbros.basicscreenstemplatebackup20260121.navigation.AppScreen
+import org.smithbros.basicscreenstemplatebackup20260121.ui.MenuItem
+import org.smithbros.basicscreenstemplatebackup20260121.ui.StandardTopAppBar
+import org.smithbros.basicscreenstemplatebackup20260121.ui.viewmodel.AppViewModel
+import org.smithbros.basicscreenstemplatebackup20260121.ui.viewmodel.AppViewModelFactory
 import androidx.compose.runtime.getValue
 
 /**

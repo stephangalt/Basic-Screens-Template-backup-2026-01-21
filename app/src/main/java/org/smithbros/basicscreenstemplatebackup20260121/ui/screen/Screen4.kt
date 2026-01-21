@@ -1,4 +1,4 @@
-package org.smithbros.basicscreenstemplate.ui.screen
+package org.smithbros.basicscreenstemplatebackup20260121.ui.screen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -11,18 +11,18 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
-import org.smithbros.basicscreenstemplate.navigation.AppScreen
-import org.smithbros.basicscreenstemplate.ui.MenuItem
-import org.smithbros.basicscreenstemplate.ui.StandardTopAppBar
-import org.smithbros.basicscreenstemplate.ui.viewmodel.AppViewModel
-import org.smithbros.basicscreenstemplate.ui.viewmodel.AppViewModelFactory
+import org.smithbros.basicscreenstemplatebackup20260121.navigation.AppScreen
+import org.smithbros.basicscreenstemplatebackup20260121.ui.MenuItem
+import org.smithbros.basicscreenstemplatebackup20260121.ui.StandardTopAppBar
+import org.smithbros.basicscreenstemplatebackup20260121.ui.viewmodel.AppViewModel
+import org.smithbros.basicscreenstemplatebackup20260121.ui.viewmodel.AppViewModelFactory
+import androidx.compose.runtime.getValue
 
 
 /**
@@ -37,16 +37,18 @@ import org.smithbros.basicscreenstemplate.ui.viewmodel.AppViewModelFactory
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun Screen2(
+fun Screen4(
     viewModel: AppViewModel = viewModel(factory = AppViewModelFactory()),
     navController: NavController
-) {
+
+){
+
     // This variable is intentionally unused in the template.
     // It is ready to be used when a developer adds screen-specific logic.
     val uiState by viewModel.uiState.collectAsState()
 
-    // 1. Get the screen's title from the single source of truth (strings.xml) via AppScreen()
-    val screenTitle = stringResource(id = AppScreen.SCREEN_2.titleResId)
+// 1. Get the screen's title from the single source of truth (strings.xml) via AppScreen()
+    val screenTitle = stringResource(id = AppScreen.SCREEN_4.titleResId)
 
     Scaffold(
         topBar = {
@@ -63,11 +65,10 @@ fun Screen2(
                         onClick = { navController.navigate(appScreen.route) }
                     )
                 },
-
             ) {
                 Text(
                     // 4. Use the resolved screen title for the visible app bar title.
-                    text = (screenTitle),
+                    text = screenTitle,
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis
                 )
@@ -79,7 +80,8 @@ fun Screen2(
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(innerPadding)
+                .padding(innerPadding),
+            contentAlignment = Alignment.TopCenter
         ) {
             // Or LazyColumn() - whatever is needed
             Column(
@@ -89,6 +91,7 @@ fun Screen2(
             ) {
                 /* This space left blank */
                 //TODO add value here for this screen
+
             }
         }
     }
